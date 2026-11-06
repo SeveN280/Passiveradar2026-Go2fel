@@ -1,0 +1,23 @@
+Baseline TX-RX: 29.1 km, TX bearing 85 deg
+lambda = 0.632 m, range bin = 125 m, Doppler resolution = 2.0 Hz, processing gain = 60.8 dB
+
+Link budget: {'surv_total_dbm': np.float64(-59.3), 'direct_ref_dbm': np.float64(-47.6), 'direct_surv_dbm': np.float64(-59.6), 'noise_dbm': np.float64(-104.2), 'processing_gain_db': np.float64(60.8)}
+  drone (DJI-class, 0.01 m2)   Rb=   1403 m  fD=   37.8 Hz  echo=-125.8 dBm  SNR_in= -21.6 dB
+  aircraft LOT3921             Rb=  12115 m  fD= -349.4 Hz  echo=-113.5 dBm  SNR_in=  -9.3 dB
+
+Channel offset found: 37 samples (simulated 37)
+Timing: align 0.07s, ECA 1.48s, CAF+CFAR 0.39s for a 0.5s CPI
+
+Detections:
+  AIRCRAFT  Rb=  12116 m  fD= -349.4 Hz  SNR= 34.9 dB  ADS-B=LOT3921
+  DRONE?    Rb=   1401 m  fD=   37.8 Hz  SNR= 23.8 dB  ADS-B=None
+saved /home/claude/passive-radar/out/fig_rd_before_after.png
+saved /home/claude/passive-radar/out/fig_rd_detections.png
+saved /home/claude/passive-radar/out/fig_geometry.png
+Calibration: simulation is -7.6 dB vs. theory
+Predicted max detection range, RCS 0.001 m2: 296 m
+Predicted max detection range, RCS 0.01 m2: 967 m
+Predicted max detection range, RCS 0.1 m2: 2889 m
+saved /home/claude/passive-radar/out/fig_detection_range.png
+
+Effective noise floor (thermal + 8-bit quantisation): -96.4 dBm

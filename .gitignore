@@ -1,0 +1,3 @@
+secrets.h
+out/sim_*.bin
+__pycache__/

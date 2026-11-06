@@ -1,0 +1,115 @@
+{
+ "config": {
+  "fc_hz": 474000000.0,
+  "erp_w": 100000.0,
+  "channel_bw_hz": 7610000.0,
+  "fs_hz": 2400000.0,
+  "usable_bw_frac": 0.9,
+  "noise_figure_db": 6.0,
+  "ref_gain_dbi": 6.0,
+  "surv_gain_dbi": 7.0,
+  "surv_beamwidth_deg": 60.0,
+  "surv_backlobe_db": -13.0,
+  "surv_azimuth_deg": 266.0,
+  "direct_extra_loss_db": 15.0,
+  "echo_extra_loss_db": 6.0,
+  "cpi_s": 0.5,
+  "n_range_bins": 120,
+  "doppler_max_hz": 500.0,
+  "eca_taps": 64,
+  "eca_batch_s": 0.125,
+  "cfar_pfa": 1e-06,
+  "cfar_guard": [
+   3,
+   2
+  ],
+  "cfar_train": [
+   10,
+   4
+  ],
+  "zero_doppler_notch_hz": 4.0,
+  "adc_backoff_db": 12.0
+ },
+ "budget": {
+  "surv_total_dbm": -59.27517684667359,
+  "direct_ref_dbm": -47.550980740212,
+  "direct_surv_dbm": -59.550980740212,
+  "noise_dbm": -104.17307477711205,
+  "processing_gain_db": 60.79181246047625
+ },
+ "effective_floor_dbm": -96.3778231934019,
+ "lag": 37,
+ "truth": [
+  {
+   "name": "drone (DJI-class, 0.01 m2)",
+   "kind": "target",
+   "rb_m": 1402.5881927099254,
+   "fd_hz": 37.791404879281515,
+   "rcs_m2": 0.01,
+   "echo_dbm": -125.76088236505757,
+   "snr_in_db": -21.58780758794552,
+   "snr_out_thermal_db": 39.20400487253073,
+   "dist_rx_m": 704.5565981523415,
+   "az_deg": 262.0
+  },
+  {
+   "name": "aircraft LOT3921",
+   "kind": "target",
+   "rb_m": 12115.191272299246,
+   "fd_hz": -349.39975502648196,
+   "rcs_m2": 20.0,
+   "echo_dbm": -113.51391092773105,
+   "snr_in_db": -9.340836150619019,
+   "snr_out_thermal_db": 51.45097630985723,
+   "dist_rx_m": 6285.670937902764,
+   "az_deg": 277.30821691876974
+  }
+ ],
+ "detections": [
+  {
+   "rb_m": 12115.987475259606,
+   "fd_hz": -349.41215726560006,
+   "snr_db": 34.88853073120117,
+   "adsb": "LOT3921",
+   "adsb_error": [
+    0.7962029603604606,
+    -0.012402239118102898
+   ],
+   "label": "AIRCRAFT"
+  },
+  {
+   "rb_m": 1401.4990546768615,
+   "fd_hz": 37.814025589841634,
+   "snr_db": 23.824827194213867,
+   "adsb": null,
+   "adsb_error": null,
+   "label": "DRONE?"
+  }
+ ],
+ "adsb_predictions": [
+  {
+   "hex": "48af01",
+   "flight": "LOT3921",
+   "lat": 49.945,
+   "lon": 19.597,
+   "alt_m": 2499.36,
+   "gs_mps": 118.32212,
+   "track_deg": 255,
+   "vrate_mps": 7.620000000000001,
+   "rb_m": 12115.191272299246,
+   "fd_hz": -349.39975502648196
+  },
+  {
+   "hex": "4b1817",
+   "flight": "SWR1484",
+   "lat": 50.32,
+   "lon": 20.45,
+   "alt_m": 11277.6,
+   "gs_mps": 234.07202,
+   "track_deg": 118,
+   "vrate_mps": 0.0,
+   "rb_m": 90726.735644162,
+   "fd_hz": -179.86251711224423
+  }
+ ]
+}

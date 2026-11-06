@@ -1,0 +1,25 @@
+{
+ "now": 1793985932.4763677,
+ "aircraft": [
+  {
+   "hex": "48af01",
+   "flight": "LOT3921 ",
+   "lat": 49.945,
+   "lon": 19.597,
+   "alt_geom": 8200,
+   "gs": 230,
+   "track": 255,
+   "geom_rate": 1500
+  },
+  {
+   "hex": "4b1817",
+   "flight": "SWR1484 ",
+   "lat": 50.32,
+   "lon": 20.45,
+   "alt_geom": 37000,
+   "gs": 455,
+   "track": 118,
+   "geom_rate": 0
+  }
+ ]
+}
